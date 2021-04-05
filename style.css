@@ -4,27 +4,27 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.description {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa-image {
+.description__image {
   width: 100%;
 }
-.aaa .more_inf {
+.description__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .aaa {
+  .description {
     text-align: center;
   }
 
 }
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -34,7 +34,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.add_wrapper {
   display: flex;
 }
 ul {
@@ -142,11 +142,11 @@ ul li input[type=text] {
   display: none;
 }
 
-.editMode input[type=text] {
+.edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.editMode label {
+.edit-mode label {
   display: none;
 }
